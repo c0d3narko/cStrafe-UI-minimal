@@ -100,8 +100,8 @@ class ShotClassification:
 
 class MovementClassifier:
     def __init__(self) -> None:
-        self.vertical = AxisState(keys=("W", "S"))
-        self.horizontal = AxisState(keys=("A", "D"))
+        self.vertical = AxisState(keys=("R", "F"))
+        self.horizontal = AxisState(keys=("D", "G"))
 
     def on_press(self, key: str, timestamp: float) -> None:
         if key in self.vertical.keys:
