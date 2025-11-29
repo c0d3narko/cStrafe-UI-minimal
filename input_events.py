@@ -66,7 +66,7 @@ class InputListener:
             char = None
         if char:
             upper_char = char.upper()
-            if upper_char in {"W", "A", "S", "D"}:
+            if upper_char in {"R", "D", "F", "G"}:
                 with self._lock:
                     self.classifier.on_release(upper_char, timestamp)
 
