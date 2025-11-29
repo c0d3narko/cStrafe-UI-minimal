@@ -13,6 +13,8 @@ freeze(
             "compressed": False,
             "optimize": 2,
 
+            "dist_dir": "dist",
+
             "includes": [
                 "queue",
                 "pynput",
@@ -35,5 +37,4 @@ freeze(
             "skip_archive": ["pynput"],
         }
     },
-    dist_dir="dist",
 )
