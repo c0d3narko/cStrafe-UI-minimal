@@ -53,7 +53,7 @@ class InputListener:
             char = None
         if char:
             char = char.upper()
-            if char in {"W", "A", "S", "D"}:
+            if char in {"R", "D", "F", "G"}:
                 with self._lock:
                     self.classifier.on_press(char, timestamp)
 
